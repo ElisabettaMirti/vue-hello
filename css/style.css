@@ -8,6 +8,16 @@ body{
     font-family: sans-serif;
 }
 
+
+div.image{
+    height: 50vh;
+}
+
+
 img{
-    width: 100%;
+    height: 100%;
+}
+
+div.input>input{
+    display: block;
 }

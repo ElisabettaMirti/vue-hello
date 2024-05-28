@@ -9,11 +9,20 @@
 </head>
 <body>
     <div id="app">
-        <h1> {{ message }} </h1>
+        <h1> Ciao, {{ message }} </h1>
 
-        <div>
+        <div class="image">
             <img :src="image" alt="">
         </div>
+
+        <div class="input">
+            <label for="title">Scrivi il tuo nome</label>
+            <input id="title" type="text" v-model="message">
+
+            <label for="image-choice">Metti l'url della tua immagine</label>
+            <input id="image-choice" type="text" v-model="image">
+        </div>
+
     </div>
 
 
